@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Sitio personal de uziel meliton, conoce sobre mi, mis habilidades y trabajemos juntos">        
+        <title>Uziel Meliton</title>
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <div class="nav-drawer">
+            <ul>
+                <li class="nav-drawer__item">
+                    <a href="#banner">Inicio</a>
+                </li>
+                <li class="nav-drawer__item">
+                    <a href="#about">Sobre mi</a>
+                </li>
+                <li class="nav-drawer__item">
+                    <a href="#projects">Portafolio</a>
+                </li>
+                <li class="nav-drawer__item">
+                    <a href="#contact">Contacto</a>
+                </li>
+                <a
+                    class="nav-drawer__item--button"
+                    href="./assets/files/CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span class="icon-arrow-down"></span>
+                    <span>Curriculum</span>
+                </a>
+                <button class="nav-drawer__btn-close">X</button>
+            </ul>
+        </div>
+        <header class="header">
+            <div class="wrapper header__wrapper">
+                <div class="logo">
+                    <a href="#banner">
+                        <img
+                            src="./assets/images/logo.svg"
+                            alt="Logotipo de el sitio personal de Uziel"
+                        />
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav__link">
+                            <a href="#about">Sobre mi</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#projects">Portafolio</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#contact"> Contacto </a>
+                        </li>
+                        <a
+                            href="./assets/files/CV.pdf"
+                            target="_blank"
+                            class="nav__link--button"
+                        >
+                            <span class="icon-arrow-down"></span>
+                            <span> Curriculum </span>
+                        </a>
+                    </ul>
+                </nav>
+                <span class="icon-menu"></span>
+            </div>
+        </header>
+        <main class="main">
+            <section id="banner" class="banner">
+                <div class="wrapper banner__wrapper">
+                    <h1
+                        data-aos-delay="300"
+                        data-aos="fade-up"
+                        class="banner__title-name"
+                    >
+                        Uziel Melitón.
+                    </h1>
+                    <img
+                        class="banner__profile"
+                        src="./assets/images/photo-perfil.png"
+                        alt="Foto de perfil de Uziel Meliton Hernández"
+                        data-aos="fade-left"
+                        data-aos-duration="1500"
+                    />
+                    <h1
+                        data-aos-delay="800"
+                        data-aos="flip-up"
+                        class="banner__title-about"
+                    >
+                        Hola !
+                        <br />
+                        Soy un
+                        <span> Frontend Developer </span>
+                    </h1>
+                    <div class="banner__social-media">
+                        <a
+                            href="https://www.linkedin.com/in/uzielhernandez"
+                            target="_blank"
+                        >
+                            <img
+                                src="./assets/icons/icon.linkedlin.svg"
+                                alt="Visita mis redes sociales de linkedlin"
+                            />
+                        </a>
+                        <a href="https://github.com/uziel100" target="_blank">
+                            <img
+                                src="./assets/icons/icon-code.svg"
+                                alt="Visita mi repositorio en Github"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="about-me">
+                <div class="wrapper about-me__wrapper">
+                    <img
+                        data-aos="fade-up"
+                        src="./assets/images/person-about-me.jpg"
+                        alt="Foto de una persona viendo el horizonte"
+                    />
+                    <div
+                        data-aos="fade-left"
+                        data-aos-easing="linear"
+                        data-aos-delay="400"
+                        class="about-me__content"
+                    >
+                        <h2 class="section__subtitle">Sobre mi</h2>
+                        <p class="about-me__description">
+                            Soy ingeniero de software, enfocado al desarrollo
+                            frontend con conocimientos en backend, con gran
+                            capacidad para adaptarme a equipos y nuevas
+                            tecnologias. Me apasiona todo lo digital, la
+                            creación, el prototipado y desarrollo de productos
+                            digitales centrados en el usuario utilizando
+                            tecnologías javascript. Estoy en constante
+                            aprendizaje, estudiante de platzi y udemy
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="skills">
+                <div class="wrapper">
+                    <h2 data-aos="fade-right" class="section__subtitle">
+                        Skills
+                    </h2>
+                    <div
+                        data-aos="fade-up"
+                        data-aos-easing="linear"
+                        class="skills__wrapper"
+                    >
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/html5.svg"
+                                alt="Logotipo de html5"
+                            />
+                            <p>HTML5</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/css3.svg"
+                                alt="Logotipo de CSS"
+                            />
+                            <p>CSS3</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/js.svg"
+                                alt="Logotipo de Javascript"
+                            />
+                            <p>Javascript</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/icons8-git.svg"
+                                alt="Logotipo de git"
+                            />
+                            <p>Git</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/react.svg"
+                                alt="Logotipo de react"
+                            />
+                            <p>React</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/redux.svg"
+                                alt="Logotipo de redux"
+                            />
+                            <p>Redux</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/icons8-vue-js.svg"
+                                alt="Logotipo de vue js"
+                            />
+                            <p>Vue</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/icons8-nodejs.svg"
+                                alt="Logotipo de node js"
+                            />
+                            <p>Node js</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/icons8-reaccionar-nativo.svg"
+                                alt="Logotipo de react native"
+                            />
+                            <p>React Native</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/icons8-mongodb.svg"
+                                alt="Logotipo de mongodb"
+                            />
+                            <p>MongoDB</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/icons8-mysql-logo.svg"
+                                alt="Logotipo de mysql"
+                            />
+                            <p>MySql</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/icon-amazon-s3.svg"
+                                alt="Logotipo de AWS S3"
+                            />
+                            <p>S3</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/icon-jest.svg"
+                                alt="Logotipo de la libreria jest para pruebas en el codigo"
+                            />
+                            <p>Jest</p>
+                        </div>
+                        <div class="skill__item">
+                            <img
+                                src="./assets/icons/icon-heroku.svg"
+                                alt="Logotipo de clould heroku"
+                            />
+                            <p>Heroku</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="projects">
+                <div class="wrapper">
+                    <h2
+                        data-aos="fade-up"
+                        class="section__subtitle section__subtitle--center"
+                    >
+                        Portafolio
+                    </h2>
+                    <section class="projects__wrapper">
+                        <article
+                            data-aos="fade-left"
+                            data-aos-easing="linear"
+                            data-aos-duration="800"
+                            class="project"
+                        >
+                            <h3 class="project__title">Librería Read&Read</h3>
+                            <img
+                                class="project__image"
+                                src="./assets/images/project-1.jpg"
+                                alt="Vista previa de la imagen del proyecto Read&Read"
+                            />
+                            <section class="project_bkg">
+                                <h3 class="project__title">
+                                    Librería Read&Read
+                                </h3>
+                                <p class="project__description">
+                                    Aplicación web para la venta de libros
+                                    electrónicos, donde podras administrar tu
+                                    propio perfil y poder leer los libros,
+                                    agregar a favoritos, evaluar con puntuación
+                                    de estrellas entre otras características.
+                                </p>
+                                <div class="project__technologies">
+                                    <img
+                                        src="./assets/icons/nuxtjs-icon.svg"
+                                        alt="Logotipo de nuxt js"
+                                    />
+                                    <img
+                                        src="./assets/icons/icons8-nodejs.svg"
+                                        alt="Logotipo de node js"
+                                    />
+                                    <img
+                                        src="./assets/icons/icons8-mongodb.svg"
+                                        alt="Logotipo de mongodb"
+                                    />
+                                    <img
+                                        src="./assets/icons/icon-amazon-s3.svg"
+                                        alt="Logotipo de AWS S3"
+                                    />
+                                    <img
+                                        src="./assets/icons/icon-heroku.svg"
+                                        alt="Logotipo de cloud heroku"
+                                    />
+                                </div>
+                                <div
+                                    class="
+                                        project__actions project__actions--right
+                                    "
+                                >
+                                    <a
+                                        target="blank"
+                                        href="https://read-and-read.herokuapp.com/"
+                                    >
+                                        <button
+                                            class="
+                                                btn-action btn-action__website
+                                            "
+                                        >
+                                            <span
+                                                class="
+                                                    btn-action__icon
+                                                    btn-action__icon--website
+                                                "
+                                            ></span>
+                                            Demo
+                                        </button>
+                                    </a>
+                                    <a
+                                        target="blank"
+                                        href="https://github.com/uziel100/Read-and-Read-nuxt-js"
+                                    >
+                                        <button
+                                            class="btn-action btn-action__code"
+                                        >
+                                            <span
+                                                class="
+                                                    btn-action__icon
+                                                    btn-action__icon--code
+                                                "
+                                            ></span>
+                                            Código
+                                        </button>
+                                    </a>
+                                </div>
+                            </section>
+                        </article>
+                        <article
+                            data-aos="fade-right"
+                            data-aos-easing="linear"
+                            data-aos-duration="800"
+                            class="project"
+                        >
+                            <h3 class="project__title">
+                                Aplicación Móvil Read&Read
+                            </h3>
+                            <img
+                                class="project__image"
+                                src="./assets/images/project-2.jpg"
+                                alt="Aplicacion movil read&read"
+                            />
+                            <section class="project_bkg">
+                                <h3 class="project__title">
+                                    Aplicación Móvil Read&Read
+                                </h3>
+                                <p class="project__description">
+                                    Aplicación multiplataforma desarrollado con
+                                    expo react native, para poder acceder al
+                                    perfil del usuario y leer los libros que ha
+                                    adquirido desde la plataforma web
+                                </p>
+                                <div class="project__technologies">
+                                    <img
+                                        src="./assets/icons/icons8-reaccionar-nativo.svg"
+                                        alt="Logotipo de react native"
+                                    />
+                                    <img
+                                        src="./assets/icons/icons8-mongodb.svg"
+                                        alt="Logotipo de mongodb"
+                                    />
+                                    <img
+                                        src="./assets/icons/icons8-nodejs.svg"
+                                        alt="Logotipo de node js"
+                                    />
+                                </div>
+                                <div
+                                    class="
+                                        project__actions project__actions--left
+                                    "
+                                >
+                                    <a
+                                        href="https://github.com/uziel100/App-movil-Read-and-Read"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <button
+                                            class="btn-action btn-action__code"
+                                        >
+                                            <span
+                                                class="
+                                                    btn-action__icon
+                                                    btn-action__icon--code
+                                                "
+                                            ></span>
+                                            Código
+                                        </button>
+                                    </a>
+                                </div>
+                            </section>
+                        </article>
+                        <article
+                            data-aos="fade-left"
+                            data-aos-easing="linear"
+                            data-aos-duration="800"
+                            class="project"
+                        >
+                            <h3 class="project__title">Design Agency</h3>
+                            <img
+                                class="project__image"
+                                src="./assets/images/project-3.jpg"
+                                alt="Sitio web de la agencia de diseño"
+                            />
+                            <section class="project_bkg">
+                                <h3 class="project__title">Design Agency</h3>
+                                <p class="project__description">
+                                    Landing page de una agencia de diseño,
+                                    elaborada con html, css y javascript, se
+                                    implemento el modo oscuro y la metodología
+                                    BEM
+                                </p>
+                                <div class="project__technologies">
+                                    <img
+                                        src="./assets/icons/html5.svg"
+                                        alt="Logotipo de html5"
+                                    />
+                                    <img
+                                        src="./assets/icons/css3.svg"
+                                        alt="Logotipo de css3"
+                                    />
+                                    <img
+                                        src="./assets/icons/js.svg"
+                                        alt="Logotipo de javascript"
+                                    />                                    
+                                </div>
+                                <div
+                                    class="
+                                        project__actions project__actions--right
+                                    "
+                                >
+                                    <a
+                                        href="https://uziel100.github.io/Design-agency/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <button
+                                            class="
+                                                btn-action btn-action__website
+                                            "
+                                        >
+                                            <span
+                                                class="
+                                                    btn-action__icon
+                                                    btn-action__icon--website
+                                                "
+                                            ></span>
+                                            Demo
+                                        </button>
+                                    </a>
+                                    <a
+                                        href="https://github.com/uziel100/Design-agency"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <button
+                                            class="btn-action btn-action__code"
+                                        >
+                                            <span
+                                                class="
+                                                    btn-action__icon
+                                                    btn-action__icon--code
+                                                "
+                                            ></span>
+                                            Código
+                                        </button>
+                                    </a>
+                                </div>
+                            </section>
+                        </article>
+                    </section>
+                </div>
+            </section>
+            <section id="contact" class="contact">
+                <div class="wrapper contact__wrapper">
+                    <div data-aos="fade-left" data-aos-duration="800">
+                        <h2 class="section__subtitle">Trabajemos juntos</h2>
+                        <p class="contact__career">
+                            Frontend Developer | Fullstack Js
+                        </p>
+                        <a
+                            class="contact__link"
+                            href="mailto:uzielmelitonh@gmail.com"
+                            >Contactame aquí ✉</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="wrapper footer__wrapper">
+                <p class="footer__title">
+                    Creado por Uziel Meliton Hernández^2 😎
+                </p>                
+                <div class="footer__social-media">
+                    <a
+                    href="https://www.linkedin.com/in/uzielhernandez"
+                    target="_blank"
+                >
+                        <img src="./assets/icons/icon.linkedlin.svg" alt="Logotipo de linkedlin" />
+                    </a>
+                    <a href="https://github.com/uziel100" target="_blank">
+                        <img src="./assets/icons/icon-code.svg" alt="Logotipo de github" />
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
